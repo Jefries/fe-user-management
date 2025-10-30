@@ -1,6 +1,6 @@
 import { Provider } from 'react-redux';
 import { store } from './store/store';
-import UserList from './components/UserList';
+import UserList from './components/UserList/UserList';
 
 function App() {
   return (

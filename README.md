@@ -45,7 +45,7 @@ A modern React application for managing users with full CRUD operations. Built w
    npm install
    ```
 
-3. **Start the development server::**
+3. **Start the development server:**
 
    ```bash
    nnpm run dev
@@ -55,4 +55,28 @@ A modern React application for managing users with full CRUD operations. Built w
 
    ```bash
    http://localhost:5173
+   ```
+
+## 🧪 Testing
+
+The project uses Vitest with Testing Library for comprehensive testing coverage.
+
+### Running Tests
+
+1. **Run all tests:**
+
+   ```bash
+   npm run test
+   ```
+
+2. **Run tests with UI interface:**
+
+   ```bash
+   npm run test:ui
+   ```
+
+3. **Run tests with coverage report:**
+
+   ```bash
+   npm run test:coverage
    ```

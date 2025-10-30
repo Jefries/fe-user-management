@@ -5,8 +5,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/Button/button';
 import { ImageWithSkeleton } from '@/components/ui/imageWithSkeleton';
 import { Trash2, Edit, Eye, UserPlus } from 'lucide-react';
-import UserDetailsModal from './UserDetailsModal';
-import UserFormModal from './UserFormModal';
+import UserDetailsModal from '../UserDetailsModal/UserDetailsModal';
+import UserFormModal from '../UserFormModal/UserFormModal';
 import type { User } from '@/types/user';
 
 const UserList = () => {
